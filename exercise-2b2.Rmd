@@ -1,0 +1,25 @@
+---
+title: "Notes"
+output: html_document
+date: "2025-01-27"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+---
+title: "R Functions and Data Handling"
+output: html_document
+---
+
+## 1. `glimpse()` Function
+
+The `glimpse()` function from the `dplyr` package in R provides a quick overview of a data frame or tibble. Unlike `head()`, which shows only the first few rows, `glimpse()` displays the data structure along with the column names, types, and the first few entries of each column. This is useful for quickly inspecting large datasets without overwhelming the console.
+
+```{r}
+# Example of using glimpse
+library(dplyr)
+glimpse(data)
+
